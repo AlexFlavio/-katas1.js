@@ -1,6 +1,7 @@
-resultado,i,i <= 20,if( i % 2 == 1),resultado push,i++
-[1],1,True,True,resultado.push(i),2
--,2,True,False,resultado.push(i),3
-"[1, 3]",3,True,True,resultado.push(i),4
--,4,True,False,resultado.push(i),5
-"[1, 3, 5]",5,True,True,resultado.push(i),6
+resultado,i,i <= 20,if( i % 2 == 1),i++,resultado push
+[ ],1,True,True,2,resultado.push(i)
+[1],2,True,False,3,resultado.push(i)
+-,3,True,True,4,resultado.push(i)
+"[1, 3]",4,True,False,5,resultado.push(i)
+-,5,True,True,6,resultado.push(i)
+"[1, 3, 5]",6,True,False,7,resultado.push(i)

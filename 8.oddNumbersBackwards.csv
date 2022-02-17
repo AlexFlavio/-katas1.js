@@ -1,0 +1,8 @@
+resultado,i,i>= 1,i--,if(i % 2 == 1),resultado.push
+[ ],20,True,19,False,resultado.push(i)
+-,19,True,18,True,resultado.push(i)
+[19],18,True,17,False,resultado.push(i)
+-,17,True,16,True,resultado.push(i)
+"[19, 17]",16,True,15,False,resultado.push(i)
+-,15,True,14,True,resultado.push(i)
+"[19, 17, 15]",14,True,13,False,resultado.push(i)

@@ -1,0 +1,8 @@
+resultado,i,i>= 1,i--,if(Match.sqrt(i) % 1 == 0),resultado.push
+[],100,True,99,True,resultado.push(i)
+[100],99,True,98,False,resultado.push(i)
+-,98,True,97,False,resultado.push(i)
+-,97,True,96,False,resultado.push(i)
+-,96,True,95,False,resultado.push(i)
+-,95,True,94,False,resultado.push(i)
+-,94,True,93,False,resultado.push(i)
