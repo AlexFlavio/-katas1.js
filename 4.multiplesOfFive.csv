@@ -1,0 +1,7 @@
+resultado,i,i <= 100,if( i % 5 == 0),resultado push,i++
+[5],5,True,True,resultado.push(i),6
+-,6,True,False,resultado.push(i),7
+-,7,True,False,resultado.push(i),8
+-,8,True,False,resultado.push(i),9
+-,9,True,False,resultado.push(i),10
+"[5, 10]",10,True,True,resultado.push(i),11

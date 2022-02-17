@@ -1,0 +1,6 @@
+resultado,i,i<= 20,push,i++
+[ ],1,True,resultado.push(i),2
+[1],2,True,resultado.push(i),3
+"[1, 2]",3,True,resultado.push(i),4
+"[1, 2, 3]",4,True,resultado.push(i),5
+"[1, 2, 3, 4]",5,True,resultado.push(i),6

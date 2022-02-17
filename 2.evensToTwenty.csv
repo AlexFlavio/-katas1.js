@@ -1,0 +1,6 @@
+resultado,i,i <= 20,if( i % 2 == 0),resultado push,i++
+[],1,True,False,resultado.push(i),2
+[2],2,True,True,resultado.push(i),3
+-,3,True,False,resultado.push(i),4
+"[2, 4]",4,True,True,resultado.push(i),5
+-,5,True,False,resultado.push(i),6
