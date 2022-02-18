@@ -1,6 +1,13 @@
-resultado,i,i <= 100,if(Math.sqrt(i) % 1 == 0),resultado.push,i++
-[ ],1,True,True,resultado.push(i),2
-[1],2,True,False,resultado.push(i),3
--,3,True,False,resultado.push(i),4
--,4,True,True,resultado.push(i),5
-"[1, 4]",5,True,False,resultado.push(i),6
+resultado,i,i <= 100,x,x * x <= i,if( x * x == i),resultado.push,x++,i++
+[],1,True,1,True,True,resultado.push(i),2,1
+[1],1,True,2,False,-,-,-,2
+-,2,True,1,True,False,-,2,2
+-,2,True,2,False,-,-,-,3
+-,3,True,1,True,False,-,2,3
+-,3,True,2,False,-,-,-,4
+-,4,True,1,True,False,-,2,4
+-,4,True,2,True,True,resultado.push(i),3,4
+"[1, 4]",4,True,3,False,-,-,-,5
+-,5,True,1,True,False,-,2,5
+-,5,True,2,True,False,-,3,5
+-,5,True,3,False,-,-,-,6

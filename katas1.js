@@ -46,9 +46,10 @@ console.log(multiplesOfFive())
 
 function squareNumbers() {
   let resultado = []
-  for (let i = 1; i <= 100 ; i++) {
-     if (Math.sqrt(i) % 1 == 0){
-        resultado.push(i)
+  for(i = 1; i <= 100; i++){
+    for(x = 1; x * x <= i; x++){
+        if(x * x == i){
+          resultado.push(i)}
       }    
     }
      return resultado  
