@@ -105,12 +105,13 @@ console.log(multiplesOfFiveBackwards())
 
 function squareNumbersBackwards() {
   let resultado = []
-  for (let i = 100; i >= 1 ; i--) {
-     if (Math.sqrt(i) % 1 == 0){
-         resultado.push(i)
-         }    
-     }
-     return resultado
+  for(i = 100; i >= 1; i--){
+    for(x = 100 ; x * x >= i; x--){
+        if(x * x == i){
+          resultado.push(i)}
+      }    
+    }
+     return resultado  
 }
 
 console.log(squareNumbersBackwards())
