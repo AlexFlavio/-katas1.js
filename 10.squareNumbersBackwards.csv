@@ -1,4 +1,4 @@
-resultado,i,i>= 1,x,x * x <= i,if(x * x ==i),resultado.push,x--,i--
+resultado,i,i>= 1,x,x * x >= i,if(x * x ==i),resultado.push,x--,i--
 [],100,True,10,True,True,resultado.push(i),9,99
 [100],99,True,9,False,-,-,-,98
 -,98,True,9,False,-,-,-,97
